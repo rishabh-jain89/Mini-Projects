@@ -1,0 +1,7 @@
+this project is classic digit recognition project made from scratch using only python and no frameworks.
+
+to_csv.py converts the mnist dataset from ubyte to csv format which we will use in our training and inference
+
+the digit_recog_nn_from_scratch.py uses the csv dataset to train the neural network with 128 neurons hidden layer and saves the parameters W1, B1, W2, B2 in .npy files
+
+the inference_digit_recog.py loads the parameters from saved files and runs inference on mnist test dataset 
