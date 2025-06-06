@@ -23,8 +23,8 @@ def write_csv(images, labels, filename):
             writer.writerow([label] + img.tolist())
 
 # Paths to ubyte files
-image_file = '/home/rishabh-jain/Desktop/Neural Networks/archive/t10k-images.idx3-ubyte'
-label_file = '/home/rishabh-jain/Desktop/Neural Networks/archive/t10k-labels.idx1-ubyte'
+image_file = ''
+label_file = ''
 
 # Read and write
 images = read_images(image_file)
